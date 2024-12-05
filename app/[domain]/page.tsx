@@ -197,9 +197,7 @@ export default async function IndexPage({
           disabled={!newHandle || !!error2}
           last
         >
-        <Check className="size-4 text-green-500" /> Success! New name created.
-        </p>
-        <p className="max-w-lg text-sm">
+          <p className="max-w-lg text-sm">
             Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
             have my own domain&quot; and enter{" "}
             {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap

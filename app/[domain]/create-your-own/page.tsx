@@ -41,7 +41,7 @@ export default function CommunityPage() {
             >
               Namecheap
             </a>
-             is a popular one, but it doesn&apos;t matter which one you use. Just make sure you
+            is a popular one, but it doesn&apos;t matter which one you use. Just make sure you
             are able to change where you point the nameservers.
           </p>
         </Stage>
