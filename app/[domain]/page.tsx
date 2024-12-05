@@ -69,7 +69,7 @@ export default async function IndexPage({
               throw new Error("slur")
             }
 
-            if (domain === "army.social" && RESERVED.includes(handle)) {
+            if (/*domain === "army.social" &&*/ RESERVED.includes(handle)) {
               throw new Error("reserved")
             }
 
