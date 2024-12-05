@@ -69,6 +69,7 @@ export default async function IndexPage({
               throw new Error("slur")
             }
 
+            //commented out the army.social domain, look only at final handles to prevent impersonation
             if (/*domain === "army.social" &&*/ RESERVED.includes(handle)) {
               throw new Error("reserved")
             }
@@ -229,4 +230,10 @@ const RESERVED = [
     "tuttlepower",
     "merryeyesoretheelk",
     "uesp",
+    "imperiallibrary",
+    "imperial-library",
+    "bethesda",
+    "elderscrolls",
+    "zenimax",
+    "elderscrollsonline",
 ].map((x) => x.toLowerCase())

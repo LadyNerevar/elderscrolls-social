@@ -32,7 +32,7 @@ export default function CommunityPage() {
       <div>
         <Stage title="Buy a domain" number={1}>
           <p className="max-w-lg">
-            Buy a domain from a domain registrar. We use{" "}
+            Buy a domain from a domain registrar. {" "}
             <a
               href="https://namecheap.com"
               className="underline"
@@ -41,33 +41,23 @@ export default function CommunityPage() {
             >
               Namecheap
             </a>
-            , but it doesn&apos;t matter which one you use. Just make sure you
+            is a popular one, but it doesn&apos;t matter which one you use. Just make sure you
             are able to change where you point the nameservers.
           </p>
         </Stage>
         <Stage title="Host the Community Handles tool" number={2} last>
           <p className="max-w-lg">You then need to host the tool.</p>
           <p className="mt-4 max-w-lg">
-            If you want to host it yourself,{" "}
+            {" "}
             <a
               href="https://github.com/mozzius/community-handles"
               className="underline"
             >
-              fork the project on GitHub
+              Fork the project on GitHub
             </a>
             . It{"'"}s a Next.js project, so you can deploy it however you like.
             Check out the README for the recommended solution, using Vercel and
             Railway.
-          </p>
-          <p className="mt-8 max-w-lg text-sm text-muted-foreground">
-            Using the hosted version? (no longer available){" "}
-            <a
-              href="https://billing.stripe.com/p/login/6oEbJccQOh2Rdji4gg"
-              className="underline"
-            >
-              Go to the billing portal
-            </a>
-            .
           </p>
         </Stage>
       </div>

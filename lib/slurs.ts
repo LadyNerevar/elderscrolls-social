@@ -51,7 +51,12 @@ const indianSlurs = [
   "Kachra",
   "Maharki",
   "Ricebag",
-]
+  //also I added a few things below that aren't Indian slurs but I didn't want people using, yolo
+  "cunt",
+  "rape",
+  "porn",
+],
+
 
 export const hasExplicitSlur = (handle: string): boolean => {
   const lowercaseHandle = handle.toLowerCase()
