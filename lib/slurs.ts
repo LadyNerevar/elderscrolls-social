@@ -55,7 +55,7 @@ const indianSlurs = [
   "cunt",
   "rape",
   "porn",
-],
+]
 
 
 export const hasExplicitSlur = (handle: string): boolean => {
