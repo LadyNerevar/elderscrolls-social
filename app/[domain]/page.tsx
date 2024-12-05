@@ -197,15 +197,9 @@ export default async function IndexPage({
           disabled={!newHandle || !!error2}
           last
         >
-              {!!error2  (
-                <>
-                  <p className="text-muted-forground mt-4 flex flex-row items-center gap-2 text-sm">
-                    <Check className="size-4 text-green-500" /> Account found
-                  </p>
-                  <Profile profile={profile} className="mt-4" />
-                </>
-              )}
-        <p className="max-w-lg text-sm text-muted-foreground">
+        <Check className="size-4 text-green-500" /> Success! New name created.
+        </p>
+        <p className="max-w-lg text-sm">
             Go to Settings {">"} Advanced {">"} Change my handle. Select &quot;I
             have my own domain&quot; and enter{" "}
             {newHandle ? `"${newHandle}"` : "your new handle"}. Finally, tap
