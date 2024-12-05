@@ -204,12 +204,12 @@ export default async function IndexPage({
             &quot;Verify DNS Record&quot;.
           </p>
 
-          <p>Note: if you change your default Bluesky username (with the .bsky.social suffix) to a website URL, your old username will be available for someone else to use. However, any tags or mentions with your old handle will still point to your account. If you'd like to keep your old .bsky.social username, we recommend creating a second account to hold that username.</p>
+          <p>Note: if you change your default Bluesky username (with the .bsky.social suffix) to a website URL, your old username will be available for someone else to use. However, any tags or mentions with your old handle will still point to your account. If you&#39;d like to keep your old .bsky.social username, we recommend creating a second account to hold that username.</p>
           
           <p className="mt-6 max-w-lg text-sm">
             This page is forked from @samuel.bsky.team. If you like this project, consider{" "}
             <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring Sam's work
+              sponsoring Sam&#39;s work
             </a>
             .
           </p>
