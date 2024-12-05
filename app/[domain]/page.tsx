@@ -203,9 +203,9 @@ export default async function IndexPage({
             &quot;Verify DNS Record&quot;.
           </p>
           <p className="mt-6 max-w-lg text-sm">
-            If you like this project, consider{" "}
+            This page is forked from @samuel.bsky.team. If you like this project, consider{" "}
             <a href="https://github.com/sponsors/mozzius" className="underline">
-              sponsoring my work
+              sponsoring his work
             </a>
             .
           </p>
@@ -216,47 +216,17 @@ export default async function IndexPage({
 }
 
 const RESERVED = [
-  "Jungkook",
-  "JeonJungkook",
-  "Jeon",
-  "JK",
-  "JJK",
-  "Kim",
-  "KimTaehyung",
-  "V",
-  "Taehyung",
-  "Tae",
-  "Jin",
-  "Seokjin",
-  "KimSeokjin",
-  "RM",
-  "Namjoon",
-  "Nam",
-  "KimNamjoon",
-  "MinYoongi",
-  "Yoongi",
-  "Yoon",
-  "AgustD",
-  "MYG",
-  "Suga",
-  "PJM",
-  "Jimin",
-  "ParkJimin",
-  "Park",
-  "Abcdefghi__lmnopqrsvuxyz",
-  "JM",
-  "UarMyHope",
-  "Rkrive",
-  "THV",
-  "KTH",
-  "SBT",
-  "BANGPD",
-  "projeto",
-  "army",
-  "armys ",
-  "info",
-  "projects",
-  "Pic",
-  "New",
-  "Babys",
+    "michaelkirkbride",
+    "michael-kirkbride",
+    "mkirkbride",
+    "ladynerevar",
+    "toddhoward",
+    "todd",
+    "todd-howard",
+    "petehines",
+    "pete-hines",
+    "dcdeacon",
+    "tuttlepower",
+    "merryeyesoretheelk",
+    "uesp",
 ].map((x) => x.toLowerCase())
